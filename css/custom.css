@@ -1,0 +1,206 @@
+.main-bg-image {
+    background: url(../images/image-2.jpg) center center / cover no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.logo-alignment{
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.adjust-image{
+    height: 45px;
+    display: none;
+}
+
+.fixed-top-nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: rgba(0,0,0,0.55);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 100;
+    transition: background .5s ease-in;
+}
+.set-nav-color {
+    background: transparent;
+}
+/* ------------Main image content section-------------------*/
+.content-section {
+    font-family: Montserrat, sans-serif;
+       padding: 10% 0 10% 0;
+}
+.content-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.content-section p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+.input-alignment{
+    background: transparent;
+    border-radius: 0px;
+}
+.input-group-text.set-bg{
+    background: #B88C2D;
+}
+.second-column {
+    background-color: rgb(184, 140, 45);
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.form-control.input-alignment{
+    background:transparent;
+    
+}
+.set-color{
+    background: #b88c2d;
+}
+
+.first-column p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.column-2 .set-img-top-padding {
+    padding-top: 40px;
+}
+
+.set-margin-top {
+    margin-top: -6px;
+}
+/*----------------------Creation of column section-----------------------*/
+.first-column {
+    background-color: rgb(0, 0, 0);
+    padding: 15px 55px 15px 20px;
+}
+.first-column h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.adjust-btn {
+    border-radius: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+}
+.margin-top-40{
+    margin-top: -40px;
+}
+.set-btm-margin-0{
+    margin-bottom: 0px;
+}
+.column-2 .set-img-top-padding {
+       padding-top: 20px;
+}
+.column-10 p.para-light{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.column-10 p.para-strong{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.set-margin-btm {
+   margin-bottom: 10%;
+}
+
+
+.input-group-append .set-arrow {
+    background-color: rgb(184, 140, 45);
+    color: rgb(255, 255, 255) !important;
+    border-radius: 0px;
+}
+.remove-col-padding {
+    padding: 0px;
+    margin: -40px 0px 0px;
+}
+.set-margin-top {
+    margin-top: -6px;
+}
+.set-btn-width {
+    width: 195px;
+}
+.adjust-arrown-right{
+    background: #B88C2D;
+    color: #fff;
+}
+/*---------------------------footer section----------------------------------*/
+footer {
+    margin-top: 55px;
+}
+.col-4-data {
+    font-family: Montserrat, sans-serif;
+}
+.col-4-data h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.col-4-data .list-group-item {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.col-4-data {
+    font-family: Montserrat, sans-serif;
+}
+.col-4-data h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.align-li {
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -1px;
+    background-color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+.align-li .text-secondary {
+    text-decoration: none;
+}
+.set-icons{
+    width: 20px;
+    color: #000000;
+}
+
+.copyright-section {
+    margin-top: 54px;
+    background-color: rgb(234, 234, 234);
+    padding: 20px 0px;
+}
+.copyright-section p {
+    margin-bottom: 0px;
+}
+/*---------------------------- Media queries ----------------------------------*/
+@media screen and (max-width: 767px){
+.col-md-6.set-responsive-margin-top {
+    margin-top: 0px;
+}
+.second-column {
+    background-color: rgb(184, 140, 45);
+    padding: 14px 27px;
+}
+.remove-col-padding {
+    padding: 0px;
+    margin: -40px 0px 0px;
+}
+.column-2 .set-img-top-padding {
+    padding-left: 15px;
+}
+.column-2 img {
+    margin-bottom: 20px;
+}
+}
